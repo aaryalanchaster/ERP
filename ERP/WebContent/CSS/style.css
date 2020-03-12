@@ -1,0 +1,63 @@
+*:focus {
+	outline: none;
+}
+
+body {
+	background: linear-gradient(to left, rgb(22, 153, 177),
+		rgb(199, 233, 105));
+}
+
+header, main, footer {
+	padding-left: 100px;
+	/* margin-top: 50%; */
+}
+
+.col.s6 {
+	margin-top: 5%;
+	/* width: 75%; */
+}
+
+.row, .card {
+	height: 0.2%;
+	width: 95%;
+}
+
+h1 {
+	font-family: "Montserrat", sans-serif;
+	color: rgb(104, 95, 233);
+	font-size: 3.5em;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	position: relative;
+	padding-left: 450px;
+	/* overflow-wrap: normal; */
+}
+
+@media only screen and (max-width: 992px) {
+	header, main, footer {
+		padding-left: 0;
+	}
+}
+
+#credits li, #credits li a {
+	color: white;
+}
+
+#credits li a {
+	font-weight: bold;
+}
+
+.footer-copyright .container, .footer-copyright .container a {
+	color: #BCC2E2;
+}
+
+.fab-tip {
+	position: fixed;
+	right: 85px;
+	padding: 0px 0.5rem;
+	text-align: right;
+	background-color: #323232;
+	border-radius: 2px;
+	color: #FFF;
+	width: auto;
+}

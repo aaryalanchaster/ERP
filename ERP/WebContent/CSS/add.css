@@ -1,0 +1,162 @@
+*:focus {
+  outline: none;
+}
+
+
+a:focus,a:hover{
+	   text-decoration: none;
+	  color: white ;
+}
+button  {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 120px;
+  height: 32px;
+  background: #1d1c1c;
+  border: none;
+  border-radius: 2px;
+  color: white ;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+      text-decoration: none;
+}
+
+
+button:hover,
+button:focus {
+ opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(5, 0, 0, 0);
+  transition: 0.1s ease;
+   background: black; 
+}
+
+
+button:active
+ {
+   opacity: 1;
+  box-shadow: 0 1px 2px rgba(5, 0, 0, 0);
+  transition: 0.1s ease;
+ background: gray; 
+}
+
+.edit{
+  margin-top: 15% ;
+}
+
+body {
+  /* background: linear-gradient(to left, #3FB6A8, #7ED386); */
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+} 
+
+.right {
+  float: right;
+  width: 80%;
+  height: 100%;
+  margin-left: 2% auto;
+  
+}
+.add{
+  margin-left: 17%;
+}
+hr{
+  height: 2em;
+}
+/* .btn{
+  margin-left: 24% ;
+
+} */
+.detail{
+  margin-left: 17%;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #7ED386;
+  font-size: 3.5em;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+
+h2 {
+  color: #777777;
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-left: 2px;
+}
+
+.container {
+  background: #FFFFFF;
+  width: 740px;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 2% auto;
+  /* box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5); */
+}
+
+
+input[type="text"],input[type="textarea"]
+
+ {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+input[type="text"]:focus,input[type="textarea"]:focus
+  {
+  border-bottom: 2px solid #7ED386;
+  width: 300px;
+  color: black;
+  transition: 0.2s ease;
+} 
+
+input[type="submit"] {
+  /* margin-top: 20px;
+  margin-bottom: 50px; */
+  width: 120px;
+  height: 32px;
+  background: #1d1c1c;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+} 
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+ {
+ opacity: 0.8;
+  /* box-shadow: 0 1px 2px rgba(5, 0, 0, 0); */
+  transition: 0.1s ease;
+   background: black; 
+}
+
+input[type="submit"]:active
+ {
+   opacity:1;
+  box-shadow: 0 1px 2px rgba(5, 0, 0, 0);
+  transition: 0.1s ease;
+ background: gray; 
+}
