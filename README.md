@@ -1,3 +1,3 @@
 # ERP
-uses java,html,css,js
-its a basic project that lets the admin add product and user view those products.
+Uses java,html,css,js.
+It's a basic project that lets the admin add product and user view those products.
